@@ -1,6 +1,6 @@
 import './App.css';
-import a from "/home/vexecute/pooltogether/src/img/logo.jpeg";
-import b from "/home/vexecute/pooltogether/src/img/BlockBuddy.png";
+import a from "/home/oxalate/Downloads/BlockBuddyPoolTogether/src/img/logo.jpeg";
+import b from "/home/oxalate/Downloads/BlockBuddyPoolTogether/src/img/BlockBuddy.png";
 
 function App() {
   const handleOpenForm = () => {
