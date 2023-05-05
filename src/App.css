@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+}
+
+.container {padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 200px;
+}
+
+/* Start Landing Page */
+.pool {
+  color: #000000;
+  text-align: center;
+  padding-top: -40px;
+}
+
+.hell {
+  margin-top: -140px;
+}
+.landing-page {
+  background-color: #FFF;
+}
+
+.landing-page .header-area {
+  height: 60px;
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 25px;
+}
+
+.landing-page .header-area .logo {
+  text-transform: uppercase;
+  font-style: italic;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: #000000;
+}
+
+.landing-page .header-area .logo img{
+  width: 180px;
+  height: auto;
+  margin-top: -15px;
+}
+
+.landing-page .header-area .links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+
+.landing-page .header-area .links li {
+  display: inline-block;
+  margin-left: 30px;
+  color: #5d5d5d;
+  cursor: pointer;
+  
+}
+
+.landing-page .header-area .links li:hover{
+  color: #FFB200;
+  
+}
+
+.landing-page .header-area .links li:last-child {
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 18px;
+  color: #FFF;
+  background-color: #277BC0;
+}
+
+.landing-page .header-area .links li:last-child:hover {
+  color: #FFB200;
+}
+
+.landing-page .info {
+  width: 42%;
+  float: right;
+  margin-right: 110px;
+  margin-top: 270px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.landing-page .info button {
+  font-weight: 600;
+}
+
+.landing-page .info button:hover {
+  color: #FFB200;
+  border-color: #FFB200;
+}
+
+.landing-page .info h1 {
+  font-size: 50px;
+  margin: 0 0 20px;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.landing-page .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 20px;
+  color: #000000;
+}
+
+.landing-page .info button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: 2px solid; 
+  border-color: #277BC0;
+  color: #277BC0;
+  background-color: #ffffff;
+}
+
+.landing-page .image {
+  width: 40%;
+  float: left;
+  margin-top: 30px;
+  margin-left: 140px;
+}
+
+.landing-page .image img {
+  max-width: 100%;
+}
+
+.clearfix {
+clear: both;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+
+.cont {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-muted {
+  color: #0c0a0a;
+  font-size: 14px;
+  text-align: center;
+}
+.main__video {
+  flex: 0.5;
+}
+
+.card__title {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card__video {
+  position: relative;
+  height: 0;
+  padding-bottom: 40%;
+  size: 20%;
+  margin-right: 30px;
+
+  
+}
+
+.card__video iframe {
+  position: absolute;
+  width: 30%;
+  height: 45%;
+  padding-bottom: 20px;
+  margin-top: -350px;
+  margin-left:160px;
+}
+
+.form-card {
+  border-style: dashed;
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100%;
+  background-color: #fff;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+  border: 1.2px solid black;
+}
+
+.form-card.slide-in {
+  right: 0;
+}
+
+
+.form-group {
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+select, input[type="text"] {
+  text-align: center;
+  width: 30%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 25%;
+  padding: 8px;
+  background-color: #008CBA;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+button[type="submit"]:hover {
+  background-color: #0077A3;
+}
+
+.form-control {
+  background-color: white;
+  color: black;
+}
+
+.hi {
+  padding-left: -30px;
+}
+
+.button1 {
+  padding-left: 980px;
+  margin-bottom: -30px;
+}
+
+.button2 {
+  padding-left: 1125px;
+  margin-top: -40px
+}
+
+.invest{
+  margin-left:20px;
+  margin-top:15px;
+}
+.withdraw{
+  margin-top:20px;
+  margin-left:20px;
+}
+
+.title{
+  display:flex;
+  text-align: center;
+  justify-content : center;
+  font-size: 26px;
+}
+
+
+
+
